@@ -1,9 +1,9 @@
 {
-"uCenterUrl":["http://172.27.108.179:8080/ThreeCSSIdentity/s","UCenter地址"],
+"uCenterUrl":["http://localhost:8080/ThreeCSSIdentity/s","UCenter地址"],
 "mongodbUrl":["172.27.108.72","mongodbUrl"],
 "mongodbPort":[27017,"mongodbPort"],
-"mongodbUsername":["chat","mongodbUsername"],
+"mongodbUsername":["threecssembedchat","mongodbUsername"],
 "mongodbPassword":["123456","mongodbPassword"],
-"mongodbDBName":["chat","mongodbDBName"],
+"mongodbDBName":["threecssembedchat","mongodbDBName"],
 "isUseMongodb":[false,"是否使用mongodb"]
 }
