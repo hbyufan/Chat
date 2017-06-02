@@ -1,5 +1,7 @@
 package server;
 
+import java.util.TimeZone;
+
 import config.CommonConfigChat;
 import http.HOpCodeUCenter;
 import init.IExpand;
@@ -16,6 +18,7 @@ public class Expand implements IExpand {
 
 	@Override
 	public void init() throws Exception {
+		TimeZone.setDefault(TimeZone.getTimeZone("Asia/Shanghai"));
 		WsOpCodeChat.init();
 		HOpCodeUCenter.init();
 		CommonConfigChat.init();
