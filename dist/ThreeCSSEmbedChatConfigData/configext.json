@@ -1,5 +1,5 @@
 {
-"uCenterUrl":["http://www.onceyun.com/ThreeCSSIdentity/s","UCenter地址"],
+"uCenterUrl":["https://www.onceyun.com/ThreeCSSIdentity/s","UCenter地址"],
 "mongodbUrl":["172.27.108.72","mongodbUrl"],
 "mongodbPort":[27017,"mongodbPort"],
 "mongodbUsername":["threecssembedchat","mongodbUsername"],

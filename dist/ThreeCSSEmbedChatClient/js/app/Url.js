@@ -1,5 +1,5 @@
 function Url() {
-    this.url = "http://www.onceyun.com/ThreeCSSIdentity/s";
-    this.chat = "ws://www.onceyun.com/ThreeCSSEmbedChat/ws";
+    this.url = "https://www.onceyun.com/ThreeCSSIdentity/s";
+    this.chat = "wss://www.onceyun.com/ThreeCSSEmbedChat/ws";
 }
 $T.url = new Url();
