@@ -6,7 +6,7 @@ threecss-embed-chat是基于ThreeCSS分布式框架开发的一款嵌入聊天�
 
 
 体验地址：
-http://embedchat.threecss.com
+https://embedchat.threecss.com
 
 
 依赖身份系统：
@@ -81,7 +81,7 @@ https://github.com/dianbaer/threecss-identity
 	
 	1、基于threecss-identity身份系统开发的项目直接调用
 
-		<iframe frameborder="0" allowtransparency="true" width="770px" height="480px" id="talk_box" src="http://embedchat.threecss.com/talk.html?token=5ffdefd0e1104ebdbc49cc6de538b669"></iframe>
+		<iframe frameborder="0" allowtransparency="true" width="770px" height="480px" id="talk_box" src="https://embedchat.threecss.com/talk.html?token=5ffdefd0e1104ebdbc49cc6de538b669"></iframe>
 		
 	2、基于其他身份系统，需对threecss-embed-chat进行二次开发对接相应的身份系统
 
