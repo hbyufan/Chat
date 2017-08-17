@@ -1,6 +1,7 @@
 # threecss-embed-chat
 
 [![Build Status](https://travis-ci.org/dianbaer/threecss-embed-chat.svg?branch=master)](https://travis-ci.org/dianbaer/threecss-embed-chat)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d3196e230abb4174b9420e952e4141db)](https://www.codacy.com/app/232365732/threecss-embed-chat?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dianbaer/threecss-embed-chat&amp;utm_campaign=Badge_Grade)
 
 threecss-embed-chat是基于ThreeCSS分布式框架开发的一款嵌入聊天项目。
 
