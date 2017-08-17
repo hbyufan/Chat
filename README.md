@@ -1,5 +1,7 @@
 # threecss-embed-chat
 
+[![Build Status](https://travis-ci.org/dianbaer/threecss-embed-chat.svg?branch=master)](https://travis-ci.org/dianbaer/threecss-embed-chat)
+
 threecss-embed-chat是基于ThreeCSS分布式框架开发的一款嵌入聊天项目。
 
 该项目由ThreeCSSEmbedChat(服务器)与ThreeCSSEmbedChatClient(客户端)两个子项目组成。
