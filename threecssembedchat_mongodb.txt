@@ -1,1 +1,1 @@
-mongo --host 172.27.108.72 --eval 'db = db.getSiblingDB("threecssembedchat");db.createUser({user: "threecssembedchat",pwd: "123456",roles: [ "readWrite", "dbAdmin" ]})'
+mongo --host 127.0.0.1 --eval 'db = db.getSiblingDB("threecssembedchat");db.createUser({user: "threecssembedchat",pwd: "123456",roles: [ "readWrite", "dbAdmin" ]})'
