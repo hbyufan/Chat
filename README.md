@@ -9,6 +9,14 @@
 该项目由ChatServer(服务器)与ChatClient(客户端)两个子项目组成。
 
 
+基于grain
+
+https://github.com/dianbaer/grain
+
+	grain-threadwebsocket
+	grain-mongodb
+	grain-mariadb
+	grain-httpclient
 
 
 ## 依赖身份系统：
@@ -26,7 +34,7 @@ Identity
 
 	dist/ChatConfig/mybatis-config.xml---访问聊天数据库
 
-	dist/ChatServer.properties----ChatConfig在服务器路径
+	dist/ChatServer.properties----ChatConfig在服务器路径以及一些配置
 
 
 ## 推荐环境：
@@ -110,7 +118,7 @@ Identity
 
 	支持将聊天记录存入MongoDB，有效的减少服务器查询聊天记录的数据库负荷。
 	
->4、基于ThreeCSS统一线程模型，优秀的多线程推送机制，高效的、线程安全的登录、登出队列。
+>4、基于统一线程模型，优秀的多线程推送机制，高效的、线程安全的登录、登出队列。
 	
 	线程1：
 	
