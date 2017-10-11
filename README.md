@@ -1,7 +1,7 @@
 # Chat
 
 [![Build Status](https://travis-ci.org/dianbaer/Chat.svg?branch=master)](https://travis-ci.org/dianbaer/Chat)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d3196e230abb4174b9420e952e4141db)](https://www.codacy.com/app/232365732/threecss-embed-chat?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dianbaer/threecss-embed-chat&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d004d40521bf4dccb61e19c73730649e)](https://www.codacy.com/app/232365732/Chat?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dianbaer/Chat&amp;utm_campaign=Badge_Grade)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 # Chat是一个聊天项目。
