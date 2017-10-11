@@ -1,9 +1,0 @@
-{
-"uCenterUrl":["https://www.threecss.com/ThreeCSSIdentity/s","UCenter地址"],
-"mongodbUrl":["127.0.0.1","mongodbUrl"],
-"mongodbPort":[27017,"mongodbPort"],
-"mongodbUsername":["threecssembedchat","mongodbUsername"],
-"mongodbPassword":["123456","mongodbPassword"],
-"mongodbDBName":["threecssembedchat","mongodbDBName"],
-"isUseMongodb":[true,"是否使用mongodb"]
-}
