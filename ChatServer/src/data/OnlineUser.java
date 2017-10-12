@@ -9,9 +9,9 @@ import java.util.concurrent.LinkedBlockingQueue;
 
 import javax.websocket.Session;
 
-import org.grain.msg.MsgManager;
 import org.grain.thread.AsyncThreadManager;
 import org.grain.thread.ICycle;
+import org.grain.threadmsg.ThreadMsgManager;
 import org.grain.websokcetlib.WSManager;
 import org.grain.websokcetlib.WsPacket;
 
@@ -281,6 +281,6 @@ public class OnlineUser implements ICycle {
 		// 发布离线消息
 		UserOffline.Builder builder = UserOffline.newBuilder();
 		builder.setUserId(getUserId());
-		MsgManager.dispatchMsg(MsgOpCodeChat.USER_OFFLINE, builder.build(), this);
+		ThreadMsgManager.dispatchThreadMsg(MsgOpCodeChat.USER_OFFLINE, builder.build(), this);
 	}
 }
