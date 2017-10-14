@@ -9,7 +9,7 @@
 Chat由ChatServer(服务器)与ChatClient(客户端)两个项目组成。
 
 
-基于grain RPC框架
+### 基于grain RPC框架
 
 https://github.com/dianbaer/grain
 
