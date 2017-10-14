@@ -20,7 +20,10 @@ https://github.com/dianbaer/grain
 
 
 ## 依赖身份系统：
+
 Identity
+
+https://github.com/dianbaer/Identity
 
 
 ## 打版本：在项目根目录下，执行
