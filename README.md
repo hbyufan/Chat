@@ -32,7 +32,7 @@ https://github.com/dianbaer/Identity
 
 ## 配置：
 
-	dist/ChatClient/js/app/Url.js-----访问聊天服务器与身份系统服务器
+dist/ChatClient/js/app/Url.js-----访问聊天服务器与身份系统服务器
 	
 	
 	function Url() {
@@ -44,9 +44,10 @@ https://github.com/dianbaer/Identity
 	$T.url = new Url();
 	
 
-	dist/ChatConfig/mybatis-config.xml---访问聊天数据库
+dist/ChatConfig/mybatis-config.xml---访问聊天数据库
 
-	dist/ChatServer.properties----ChatConfig在服务器路径以及一些配置
+
+dist/ChatServer.properties----ChatConfig在服务器路径以及一些配置
 	
 	#mybatis-config.xml在服务器的地址
 	config_dir = C:/Users/admin/Desktop/github/Chat/trunk/ChatConfig
