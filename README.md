@@ -4,12 +4,12 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d004d40521bf4dccb61e19c73730649e)](https://www.codacy.com/app/232365732/Chat?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dianbaer/Chat&amp;utm_campaign=Badge_Grade)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-# Chat是一个聊天项目。
+# Chat是一个Html5的聊天项目，基于websocket。
 
-该项目由ChatServer(服务器)与ChatClient(客户端)两个子项目组成。
+Chat由ChatServer(服务器)与ChatClient(客户端)两个项目组成。
 
 
-基于grain
+基于grain RPC框架
 
 https://github.com/dianbaer/grain
 
