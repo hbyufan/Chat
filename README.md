@@ -34,10 +34,35 @@ https://github.com/dianbaer/Identity
 ## 配置：
 
 	dist/ChatClient/js/app/Url.js-----访问聊天服务器与身份系统服务器
+	
+	
+	function Url() {
+		//身份系统的地址
+		this.url = "http://localhost:8080/IdentityServer/s";
+		//聊天服务器的地址
+		this.chat = "ws://localhost:8081/ChatServer/ws";
+	}
+	$T.url = new Url();
+	
 
 	dist/ChatConfig/mybatis-config.xml---访问聊天数据库
 
 	dist/ChatServer.properties----ChatConfig在服务器路径以及一些配置
+	
+	#mybatis-config.xml在服务器的地址
+	config_dir = C:/Users/admin/Desktop/github/Chat/trunk/ChatConfig
+	#身份系统的地址
+	uCenterUrl = http://localhost:8080/IdentityServer/s
+	#mongodb的配置
+	mongodbUrl = 172.27.108.72
+	mongodbPort = 27017
+	mongodbUsername = chat
+	mongodbPassword = 123456
+	mongodbDBName = chat
+	#是否使用mongodb，如果填false聊天记录存储在mysql，如果填true聊天记录存储在mongodb
+	isUseMongodb = false
+
+
 
 
 ## 推荐环境：
