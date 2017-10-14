@@ -19,9 +19,8 @@ https://github.com/dianbaer/grain
 	grain-httpclient
 
 
-## 依赖身份系统：
+## 依赖身份系统Identity：
 
-Identity
 
 https://github.com/dianbaer/Identity
 
